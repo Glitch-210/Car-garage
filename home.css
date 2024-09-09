@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("home.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.com-name{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 6vw;
+    margin-top:7vh ;
+    text-shadow: 2px 2px 2px cyan;
+    font-family: "Rog Fonts";
+    font-weight: 700;      
+    font-size: 4rem;
+    color: black;
+}
+
+.desc{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 6vw;
+    margin-top:5px ;
+    text-shadow: 1px 1px 2px cyan;
+    font-family: "Poppins";
+    font-weight: 700;      
+    font-size: 1rem;
+    color: black;
+}
+
+/* content */
+
+.enter{
+    margin-top:70vh;
+    display: flex;
+    font-size: 2rem;
+    font-family:"Poppins";
+    font-weight: 700;
+    margin-left: 1330px;
+    color: black;
+    background-color:cyan;
+    border: none;
+    border-radius: 10px;
+    width: 180px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(7px 5px 5px black);
+}
+
+.enter:hover{
+    transform:scale(1.1);
+}

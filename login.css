@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Poppins;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    background-color: rgb(130, 130, 101);
+}
+
+.nav-bar{
+    background-color: rgb(59, 59, 47);
+    height: 70px;
+}
+.nav-data{
+    display: flex;
+    margin-left: 5px;
+    align-items: center;
+    font-size: 3rem;
+    color:rgb(15, 215, 215);
+}
+
+.nav-data .title{
+    color:yellow;
+    margin-left: 10px;
+}
+
+.box-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    height: 400px;
+    width: 420px;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+.box .form-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(59, 59, 47);
+    color: #35bbca;
+    height: 58px;
+    font-size: 2.2rem;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.box .form-data{
+    text-align: center;
+    background-color: rgb(209, 209, 168);
+    height: 450px;
+    font-size: 2rem;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.box .form-data .text{
+    color:blue;
+    background-color: white;
+    border: 0;
+    border-radius: 7px;
+    font-size: 2rem;
+    font-family: DM sans;
+    text-align: center;
+}
+.box .form-data .login-button{
+    font-size: 2rem;
+    font-family: Poppins;
+    margin-top: 85px;
+    height: 50px;
+    width: 160px;
+    border: 0;
+    background-color: white;
+    border-radius: 7px;
+    font-size: 2rem;
+    margin-left: 4px;
+    margin-right: 4px;
+    transition:  .6s ease-in-out;
+}
+
+.box .form-data .login-button:hover{
+    background-color:hotpink;
+    transform: scale(1.1);  
+}
+
+.box .form-data .text:hover{
+    background-color:hotpink;
+}
+
+.footer{
+    margin-bottom: 2px;
+}
+
+.thirdsection{
+    margin-top: 200px;
+}
+
+.media{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px ;
+    margin-bottom: 15px;
+}
+
+.media i:hover{
+    color:#35bbca;
+}
+
+.media i{
+    margin:10px;
+    font-size: 1.2rem;
+    color: aliceblue;
+}
+
+.follow{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4px;
+    font-size: 1.2rem;
+    color: aliceblue;
+}
+
